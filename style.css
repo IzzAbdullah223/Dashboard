@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    background-color:  #c1cad696;
+}
+
+
+.pageContainer{
+    display: flex;
+}
+.sideBarContainer{
+    background-color: #0284c7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    min-height: 100vh;
+    width: 25%;
+}
+
+.sideBarContainer>div>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+
+.firstRow{
+    padding: 15px;
+}
+
+.firstRow span{
+    font-size: 2rem;
+}
+
+.secondRow,.thirdRow{
+    padding: 25px;
+}
+ 
+.secondRow,.thirdRow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.secondSectionContainer{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   gap: 40px;
+}
+.headerContainer{
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(182, 182, 182, 0.87);
+ }
+ 
+ .topContainer{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 20px;
+     padding: 20px;
+ }
+ 
+ .leftSide{
+     display: flex;
+     gap: 10px;
+     margin-left: 20px;
+     width: 56%;
+ }
+ 
+ .leftSide input{
+     border-radius: 50px;
+     border: none;
+     padding: 10px;
+     background-color: #c1cad696;
+     flex: 1;
+ }
+ 
+ 
+ .rightSide{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+     margin-right: 45px;
+ }
+ 
+ .profileImage{
+     width: 50px;
+     height: 50px;
+     border-radius: 50px;
+ }
+ 
+ .accountName{
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+ 
+ .belowContainer{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+     gap: 30px;
+ }
+ 
+ .leftSideBelow{
+     display: flex;
+     align-items: center;
+     gap: 25px;
+     font-weight: bold;
+     margin-left: 20px;
+ }
+ 
+ .leftSideBelow img{
+     width: 90px;
+     height: 90px;
+     border-radius:50px;
+ }
+
+ .imageText{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+ 
+ .greetingsName{
+     font-size: 2rem;
+ }
+ 
+ .buttonsContainer{
+     display: flex;
+     gap: 45px;
+     margin-right: 25px;
+ 
+ }
+ 
+ .rightSideBelow button{
+     color: white;
+     border: none;
+     background-color: #0284c7;
+     padding: 15px 35px;
+     border-radius:  25px;
+     font-weight: bold;
+     font-size: 1.1rem;
+ }
+
+.CardsContainer{
+    margin-left: 25px;
+    display: flex;
+    gap: 80px;
+}
+
+.leftSideCard{
+    margin-bottom: 90px;
+}
+
+.leftSideCard h2{
+    margin-bottom: 10px;
+}
+
+.projectCards{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(440px,440px));
+    grid-template-rows: repeat(3,minmax(230px,230px));
+    gap: 20px 35px;
+   
+}
+
+.card{
+    border-left: rgba(236, 161, 22, 0.952) 11px solid;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px rgba(126, 126, 126, 0.521);
+    border-radius: 10px;
+    padding: 35px;
+    font-size: 1.1rem;
+}
+
+.card h3{
+    font-size: 1.4rem;
+}
+
+.card p{
+   color: grey;
+}
+
+.cardIcons{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.rightSideCard h2{
+    margin-bottom: 10px;
+}
+
+.topCard{
+    background-color: white;
+    margin-right: 10px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 72%;
+    box-shadow: 4px 4px 10px rgba(45, 133, 173, 0.521);
+    margin-bottom: 20px;
+}
+
+.topCard p{
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.topCard hr{
+    margin-bottom: 20px;
+    height: 3.5px;
+    background-color: #0284c7;
+}
+
+.bottomCard{
+    background-color: white;
+    width: 72%;
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(45, 133, 173, 0.521); 
+}
+
+.user1,.user2,.user3,.user4{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.bottomCard p,.bottomCard span{
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bottomCard img{
+    border-radius: 40px;
+}
+ 
+
+
+ 
+
+
+
+ 
